@@ -1,0 +1,39 @@
+body { margin: 0;}
+ul {
+  background: #884208;
+}
+
+img {
+  width: 25%;
+  padding: 100px 0;
+}
+
+ol + img {
+  float: left;
+}
+
+h1 {
+  clear: left;
+}
+
+.second { float: right;}
+
+.background-change {
+  content: "";
+  display: table;
+  width: 100%;
+  background-color: orange;
+  clear: left;
+}
+
+.image-center {
+  clear: right;
+  background: paleturquoise;
+  text-align: center;
+}
+
+.effective {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
